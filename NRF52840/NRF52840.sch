@@ -766,4 +766,73 @@ NoConn ~ 4780 4800
 NoConn ~ 4780 4600
 NoConn ~ 4780 4400
 NoConn ~ 4780 1600
+Text GLabel 4780 3200 0    50   Input ~ 0
+nRST
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5C8B25FA
+P 5080 7090
+F 0 "J?" H 5130 7507 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 5130 7416 50  0000 C CNN
+F 2 "" H 5080 7090 50  0001 C CNN
+F 3 "~" H 5080 7090 50  0001 C CNN
+	1    5080 7090
+	1    0    0    -1  
+$EndComp
+Text GLabel 5380 6890 2    50   Input ~ 0
+SWDIO
+Text GLabel 5380 7090 2    50   Input ~ 0
+SWCLK
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B294C
+P 5380 6990
+F 0 "#PWR?" H 5380 6740 50  0001 C CNN
+F 1 "GND" V 5385 6862 50  0000 R CNN
+F 2 "" H 5380 6990 50  0001 C CNN
+F 3 "" H 5380 6990 50  0001 C CNN
+	1    5380 6990
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B2993
+P 5380 7290
+F 0 "#PWR?" H 5380 7040 50  0001 C CNN
+F 1 "GND" V 5385 7162 50  0000 R CNN
+F 2 "" H 5380 7290 50  0001 C CNN
+F 3 "" H 5380 7290 50  0001 C CNN
+	1    5380 7290
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4880 6890 0    50   Input ~ 0
+nRST
+$Comp
+L power:GND #PWR?
+U 1 1 5C8B2B26
+P 4880 6990
+F 0 "#PWR?" H 4880 6740 50  0001 C CNN
+F 1 "GND" V 4885 6862 50  0000 R CNN
+F 2 "" H 4880 6990 50  0001 C CNN
+F 3 "" H 4880 6990 50  0001 C CNN
+	1    4880 6990
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x11_Odd_Even J?
+U 1 1 5C8B8E2E
+P 1270 3350
+F 0 "J?" H 1320 4067 50  0000 C CNN
+F 1 "Conn_02x11_Odd_Even" H 1320 3976 50  0000 C CNN
+F 2 "" H 1270 3350 50  0001 C CNN
+F 3 "~" H 1270 3350 50  0001 C CNN
+	1    1270 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6680 4700 2    50   Input ~ 0
+P1.15
+Text GLabel 6680 4600 2    50   Input ~ 0
+P1.13
+Text GLabel 6680 4400 2    50   Input ~ 0
+P1.10
 $EndSCHEMATC
