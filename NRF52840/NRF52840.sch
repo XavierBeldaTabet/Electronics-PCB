@@ -835,4 +835,12 @@ Text GLabel 6680 4600 2    50   Input ~ 0
 P1.13
 Text GLabel 6680 4400 2    50   Input ~ 0
 P1.10
+Wire Notes Line
+	5880 7670 5880 6350
+Wire Notes Line
+	5880 6350 4410 6350
+Wire Notes Line
+	4410 6350 4410 7680
+Wire Notes Line
+	4410 7680 5880 7680
 $EndSCHEMATC
